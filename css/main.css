@@ -1,0 +1,196 @@
+/* plus-jakarta-sans-regular - latin */
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('../fonts/plus-jakarta-sans-v3-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/plus-jakarta-sans-v3-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* plus-jakarta-sans-500 - latin */
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''), url('../fonts/plus-jakarta-sans-v3-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/plus-jakarta-sans-v3-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* plus-jakarta-sans-600 - latin */
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''), url('../fonts/plus-jakarta-sans-v3-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/plus-jakarta-sans-v3-latin-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* plus-jakarta-sans-700 - latin */
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''), url('../fonts/plus-jakarta-sans-v3-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/plus-jakarta-sans-v3-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* VARIABLES */
+
+:root {
+    --main-title-color: #101010;
+    --main-text-color: #636F87;
+    --main-font-size-text: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Plus Jakarta Sans" "Arial" sans-serif;
+    font-weight: 400;
+}
+
+
+/* CONTAINER */
+
+.container {
+    max-width: 1256px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/********** Header style start **********/
+
+.site-header {
+    border-bottom: 1px solid #EEEEF4;
+    padding: 24px 0;
+    top: 0;
+    position: sticky;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.site-logo {
+    display: block;
+    margin-right: 50px;
+}
+
+.site-nav__list {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+
+.site-nav__item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.site-nav__item-link {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--main-title-color);
+    text-decoration: none;
+}
+
+.site-header__phone {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 527px;
+    padding: 12px 24px;
+    background: #101010;
+    border-radius: 6px;
+}
+
+
+/********** Header style end **********/
+
+
+/********** Main style start **********/
+
+.hero-section {
+    padding-top: 91px;
+    padding-bottom: 156px;
+}
+
+.hero-section__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section-wrapper__start {
+    width: 550px;
+}
+
+.hero-section__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    color: var(--main-title-color);
+}
+
+.hero-section__desc {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 150%;
+    width: 537px;
+    color: var(--main-text-color);
+}
+
+.hero-section__link {
+    padding: 20px 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #1AAB7B;
+    border-radius: 6px;
+}
+
+.hero-section-end__vid {
+    width: 592px;
+    height: 334px;
+    border-radius: 6px;
+}
+
+
+/********** how can we help you style start **********/
+
+
+/********** how can we help you style end **********/
+
+
+/********** Main style end **********/
