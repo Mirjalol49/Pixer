@@ -686,6 +686,10 @@ body {
     text-decoration: none;
 }
 
+.site-footer__list-end {
+    list-style: none;
+}
+
 .hover:hover {
     color: var(--main-hover);
     -webkit-transition: 0.3s ease;
@@ -699,6 +703,7 @@ body {
 
 .site-footer__list-start {
     margin-left: 151px;
+    list-style: none;
 }
 
 .site-footer__bottom-list {
