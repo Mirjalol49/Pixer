@@ -262,4 +262,73 @@
                                 color: var(--main-title-color);
                             }
                             /********** how can we help you style end **********/
+                            /********** how do we work style start **********/
+                            
+                            .how-do-we-work-section {
+                                background-color: #FFFFFF;
+                                padding-top: 100px;
+                                padding-bottom: 200px;
+                            }
+                            
+                            .how-do-we-work__box {
+                                width: 100%;
+                                max-width: 650px;
+                                text-align: center;
+                                margin: 0 auto
+                            }
+                            
+                            .how-do-we-work__title {
+                                font-weight: 600;
+                                font-size: 36px;
+                                line-height: 140%;
+                                text-align: center;
+                                color: var(--main-title-color);
+                                margin-top: 0;
+                                margin-bottom: 16px;
+                            }
+                            
+                            .how-do-we-work__text {
+                                font-size: var(--main-font-size-text);
+                                line-height: 150%;
+                                text-align: center;
+                                color: var(--main-text-color);
+                                margin-bottom: 90px;
+                            }
+                            
+                            .how-do-we-work__list {
+                                padding-left: 0;
+                            }
+                            
+                            .how-do-we-work__item {
+                                display: flex;
+                            }
+                            
+                            .how-do-we-work__item:nth-child(2) {
+                                display: flex;
+                                justify-content: flex-end;
+                                margin-top: 100px;
+                                margin-bottom: 94px;
+                                margin-right: 32px;
+                            }
+                            
+                            .how-do-we-work__item-innerbox {
+                                width: 488px;
+                                margin-left: 32px;
+                            }
+                            
+                            .how-do-we-work__item-innerbox-title {
+                                font-weight: 700;
+                                font-size: 40px;
+                                line-height: 140%;
+                                color: var(--main-title-color);
+                                margin-top: 26px;
+                                margin-bottom: 20px;
+                            }
+                            
+                            .how-do-we-work__item-innerbox-text {
+                                font-size: 18px;
+                                line-height: 150%;
+                                color: var(--main-text-color);
+                            }
+                            /********** how do we work style  end **********/
                             /********** Main style end **********/
