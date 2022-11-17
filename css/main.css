@@ -178,6 +178,7 @@ body {
     padding: 12px 24px;
     background: #101010;
     border-radius: 6px;
+    border: 1px solid transparent;
 }
 
 .site-header__phone:hover {
@@ -269,6 +270,7 @@ body {
     width: 592px;
     height: 334px;
     border-radius: 6px;
+    border: none;
 }
 
 
@@ -311,6 +313,7 @@ body {
     padding: 30px 30px 40px 30px;
     background: #F2F4F6;
     width: 384px;
+    border: 1px solid transparent;
 }
 
 .how-can-we-item:hover {
@@ -324,14 +327,17 @@ body {
 
 .how-can-we-item:hover .item-header-box__title {
     color: #ffff;
+    transition: 0.3s ease;
 }
 
 .how-can-we-item:hover .how-can-we__text {
     color: #ffff;
+    transition: 0.3s ease;
 }
 
 .how-can-we-item:hover .how-can-we__link {
     color: #fff;
+    transition: 0.3s ease;
 }
 
 .how-can-we-item:nth-child(3) {
@@ -361,6 +367,7 @@ body {
 
 .item-header-box__title:hover {
     color: #FFFFFF;
+    transition: 0.3s ease;
 }
 
 .item-header-box__boximg {
@@ -608,6 +615,7 @@ body {
     color: #FFFFFF;
     margin-left: 110px;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 
 .form__btn:hover {
